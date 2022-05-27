@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="@dimen/largura_200"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:layout_height="@dimen/altura_150"
+        android:contentDescription="Imagem da Torre Eiffel"
+        android:src="@drawable/foto_google"/>
+
+
+    <TextView
+        android:id="@+id/text_view_boas_vindas"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/largura_200"
+        android:layout_height="@dimen/altura_100"
+        android:textSize="@dimen/tamanho_texto_30"
+        android:textColor="@color/cor_primaria_roxo"
+        android:text="@string/boas_vindas"/>
+
+    <TextView
+        android:id="@+id/text_view_nosso_nome"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/largura_300"
+        android:layout_height="@dimen/altura_150"
+        android:textSize="@dimen/tamanho_texto_40"
+        android:textColor="@color/cor_primaria_roxo"
+        android:text="@string/nosso_nome"/>
+
+</LinearLayout>
